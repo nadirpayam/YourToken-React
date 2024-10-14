@@ -1,0 +1,20 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+.App{
+    background-color: rgba(208, 197, 203, 0.28);
+}
+.container{
+    display: flex;
+        justify-content: center;
+}
+
+.container> *{
+background-color: #f1f1f1;
+margin: 10px;
+width: 700px;
+text-align: center;
+
+}

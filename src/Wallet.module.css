@@ -1,0 +1,118 @@
+.walletCard {
+  text-align: left;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #a8c997;
+  box-shadow: 4px 2px 2px 0px rgba(0, 0,0, .3);
+  padding: 12px;
+  margin-bottom: 24px;
+
+}
+.btnWrapper{
+  display: flex;
+  justify-content: center;
+  margin: 6px 0;
+}
+
+h2{
+      font-weight: 600;
+        font-size: 32px;
+        padding: 8px;
+  }
+.tokenName{
+    text-align: center;
+    background: -webkit-linear-gradient(#49ac19, #ee6d0e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0;
+      font-weight: bold;
+}
+
+.walletCard h3 {
+  margin-left: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  font-weight: 700;
+}
+
+.addressWrapper{
+  background-color:#7bad62;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 4px 2px 2px 0px rgba(0, 0, 0, .3);
+    padding: 12px;
+    margin: 24px 0 ;
+ 
+}
+
+.addressWrapper h3{
+  font-weight: 700;
+}
+
+.btnWrapper button{
+  cursor: pointer;
+  transition: all 0.3s ease ;
+}
+.btnWrapper button:hover{
+  opacity: 0.6;
+
+}
+.eventWrapper{
+    background-color: #63ac3f;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 4px 2px 2px 0px rgba(0, 0, 0, .3);
+    padding: 12px;
+    margin-bottom: 24px;
+    text-align: left;
+    margin-top: 24px;
+}
+.eventWrapper h3{
+  font-weight: 700;
+}
+
+
+.eventWrapper p{
+  font-size: 14px;
+}
+
+.interactionsCard {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-bottom: 1em;
+  border-radius: 10px;
+  background-color: #215408;
+  color: white;
+  box-shadow: 4px 2px 2px 0px rgba(0, 0, 0, .3);
+}
+.interactionsCard input{
+  outline:none;
+  border:none;
+  padding:4px;
+}
+
+.header{
+  color: white;
+}
+
+.addressInput {
+  width: 75%;
+  font-size: 18px;
+  color: #04080f;
+}
+
+.button6 {
+  border: none;
+  padding: 0.7em 1.4em;
+  margin: 0 0.3em 0.3em 0.3em;
+  border-radius: 0.15em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Papyrus", "Copperplate" sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #04080f;
+  box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+}
